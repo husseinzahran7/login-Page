@@ -137,11 +137,18 @@ body{
         width: 100%;
         height: auto;
     }
+    .wrapper{
+        margin:20px ;
+    }
 }
+
 
 @media(max-aspect-ratio:16/9){
     .back-video{
         width: auto;
         height: 100%;
+    }
+    .wrapper{
+        margin:20px ;
     }
 }
